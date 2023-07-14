@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+#ixm9ae {
+    en: 1;
+    width: 142px;
+}
+
+#i0x25i {
+    color: #787878;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#ib0djy {
+    font-family: Times New Roman, Times, serif;
+    font-size: 22px;
+    color: #000000;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0 0 0;
+}
+
+.c30663 {
+    color: black;
+    width: 34px;
+    margin: 0px 0px 0px 116px;
+}
+
+@media (max-width: 992px) {
+    .c30663 {
+        margin: 0px 0px 0px 2px;
+    }
+}
