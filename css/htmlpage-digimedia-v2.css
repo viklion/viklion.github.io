@@ -424,12 +424,12 @@ header
 
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
-  color: #fe664e!important;
+  color: #2a2a2a!important;
 }
 
 .background-header .main-nav .nav li:hover a,
 .background-header .main-nav .nav li a.active {
-  color: #fe664e!important;
+  color: #2a2a2a!important;
   opacity: 1;
 }
 
