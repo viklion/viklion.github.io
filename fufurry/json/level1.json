@@ -1,0 +1,60 @@
+{
+  "respCode": "1000",
+  "respMsg": "成功",
+  "goodArray": {
+    "1": [
+      {
+        "name": "chicken",
+        "width": 60,
+        "height": 66,
+        "x": 240,
+        "y": 300,
+        "canClick": false
+      }
+    ],
+    "2": [
+      {
+        "name": "cabbage",
+        "width": 60,
+        "height": 66,
+        "x": 120,
+        "y": 240,
+        "canClick": true
+      },
+      {
+        "name": "chicken",
+        "width": 60,
+        "height": 66,
+        "x": 310,
+        "y": 500,
+        "canClick": true
+      },
+      {
+        "name": "cabbage",
+        "width": 60,
+        "height": 66,
+        "x": 240,
+        "y": 330,
+        "canClick": true
+      }
+    ],
+    "3": [
+      {
+        "name": "chicken",
+        "width": 60,
+        "height": 66,
+        "x": 360,
+        "y": 400,
+        "canClick": true
+      },
+      {
+        "name": "cabbage",
+        "width": 60,
+        "height": 66,
+        "x": 310,
+        "y": 300,
+        "canClick": true
+      }
+    ]
+  }
+}

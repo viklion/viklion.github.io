@@ -1,0 +1,73 @@
+为了美观，建议货物的设计坐标保持下列标准
+x轴： 20 - 380
+y轴： 60 - 390
+
+//-----------------------
+name    | 表示展示什么样的货物
+x       | 货物的x轴坐标
+y       | 货物的y轴坐标
+width   | 货物的宽度
+height  | 货物的高度
+canClick| 货物是否可点击
+//-----------------------
+
+{
+  "respCode": "1000",
+  "respMsg": "成功",
+  "goodArray": {
+    "1": [
+      {
+        "name": "chicken",
+        "width": 60,
+        "height": 66,
+        "x": 240,
+        "y": 300,
+        "canClick": false
+      }
+    ],
+    "2": [
+      {
+        "name": "cabbage",
+        "width": 60,
+        "height": 66,
+        "x": 120,
+        "y": 240,
+        "canClick": true
+      },
+      {
+        "name": "chicken",
+        "width": 60,
+        "height": 66,
+        "x": 310,
+        "y": 500,
+        "canClick": true
+      },
+      {
+        "name": "cabbage",
+        "width": 60,
+        "height": 66,
+        "x": 240,
+        "y": 330,
+        "canClick": true
+      }
+    ],
+    "3": [
+      {
+        "name": "chicken",
+        "width": 60,
+        "height": 66,
+        "x": 360,
+        "y": 400,
+        "canClick": true
+      },
+      {
+        "name": "cabbage",
+        "width": 60,
+        "height": 66,
+        "x": 310,
+        "y": 300,
+        "canClick": true
+      }
+    ]
+  }
+}
