@@ -1,6 +1,3 @@
-<script src="js/ipv4v6.js"></script>
-<script src="http://ipv6.lookup.test-ipv6.com/ip/?callback=_jqjsp&asn=1&testdomain=test-ipv6.com&testname=test_asn6"></script>
-
 <!doctype html>
 <html lang="zh-CN">
 
@@ -163,6 +160,16 @@
         <script src="js/animation.js"></script>
         <script src="js/imagesloaded.js"></script>
         <script src="js/custom.js"></script>
+		<script>
+		function _jqjsp(data) {
+			if (data && data.type && data.type === 'ipv6') {
+				var link = document.querySelector('a[href="https://alist.viklion.cn"]');
+				if (link) {
+					link.href = 'https://v6.alist.viklion.cn';
+				}
+			}
+		}</script>
+		<script src="http://ipv6.lookup.test-ipv6.com/ip/?callback=_jqjsp&asn=1&testdomain=test-ipv6.com&testname=test_asn6"></script>
       </div>
     </body>
   </body>
