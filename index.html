@@ -1,3 +1,21 @@
+<script>
+
+// 在全局范围定义变量v6support并初始化为false
+var v6support = false;
+
+function _jqjsp(data) {
+    // 检查data对象的type属性是否为ipv6，并且如果是，则将v6support设置为true
+    if (data && data.type && data.type === 'ipv6') {
+        v6support = true;
+    }
+}
+
+</script>
+
+<script src="http://ipv6.lookup.test-ipv6.com/ip/?callback=_jqjsp&asn=1&testdomain=test-ipv6.com&testname=test_asn6"></script>
+
+
+
 <!doctype html>
 <html lang="zh-CN">
 
@@ -56,7 +74,7 @@
                   <!-- ***** Menu Start ***** -->
                   <ul class="nav">
                     <li class="scroll-to-section"><a href="index.html" class="active">主页</a></li>
-		    <li class="scroll-to-section"><a href="https://alist.viklion.cn" target="-blank" class="active">影视屋</a></li>
+		    <li class="scroll-to-section"><a href="javascript:void(0);" onclick="ipv4v6()" class="active">影视屋</a></li>
             <!-- <li class="scroll-to-section"><a href="2048/2048.html" class="active">2048</a></li> -->
 		    <li class="scroll-to-section"><a href="dfj/dfj.html" class="active">打飞机</a></li>
 		    <!--<li class="scroll-to-section"><a href="hxgxy/hxgxy.html" class="active">划线过悬崖</a></li> -->
@@ -79,7 +97,7 @@
                         <div class="col-lg-12">
                           <h6 id="i0x25i">欢迎来到</h6>
                           <h2>熊拾壹の快乐妙妙屋</h2>
-                          <p id="ib0djy">↓点击查看熊拾壹の大宝贝↓</p><a href="https://alist.viklion.cn" target="-blank" title="熊拾壹的alist"><img src="img/logo.png" class="c30663" /></a>
+                          <p id="ib0djy">↓点击查看熊拾壹の大宝贝↓</p><a href="javascript:void(0);" onclick="ipv4v6()" title="熊拾壹的alist"><img src="img/logo.png" class="c30663" /></a>
                         </div>
                         <div class="col-lg-12">
                           <div class="border-first-button scroll-to-section"></div>
@@ -161,15 +179,16 @@
         <script src="js/imagesloaded.js"></script>
         <script src="js/custom.js"></script>
 		<script>
-		function _jqjsp(data) {
-			if (data && data.type && data.type === 'ipv6') {
-				var link = document.querySelector('a[href="https://alist.viklion.cn"]');
-				if (link) {
-					link.href = 'https://v6.alist.viklion.cn';
-				}
+		function ipv4v6() {
+			if (v6support) {
+				// 如果v6support为true，则打开新页面https://v6.alist.viklion.cn
+				window.open('https://v6.alist.viklion.cn', '_blank');
+			} else {
+				// 如果v6support为false，则打开新页面https://alist.viklion.cn
+				window.open('https://alist.viklion.cn', '_blank');
 			}
-		}</script>
-		<script src="http://ipv6.lookup.test-ipv6.com/ip/?callback=_jqjsp&asn=1&testdomain=test-ipv6.com&testname=test_asn6"></script>
+		}
+		</script>
       </div>
     </body>
   </body>
