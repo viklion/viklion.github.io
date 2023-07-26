@@ -2966,7 +2966,7 @@
 			'<span aria-label="' + 'Previous' + '">&#x2039;</span>',
 			'<span aria-label="' + 'Next' + '">&#x203a;</span>'
 		],
-		navSpeed: false,
+		navSpeed: 1000,
 		navElement: 'button type="button" role="presentation"',
 		navContainer: false,
 		navContainerClass: 'owl-nav',
