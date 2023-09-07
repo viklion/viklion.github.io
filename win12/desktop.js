@@ -2108,8 +2108,8 @@ let apps = {
                 'D:': {
                     folder: { 'Microsoft': { folder: {}, file: [] } },
                     file: [
-                        { name: '瓶盖结构说明.docx', ico: 'icon/files/word.png', command: '' },
-                        { name: '可口可乐瓶盖历史.pptx', ico: 'icon/files/ppt.png', command: '' },
+                        { name: '《学习资料》.docx', ico: 'icon/files/word.png', command: '' },
+                        { name: '福瑞发展史.pptx', ico: 'icon/files/ppt.png', command: '' },
                     ]
                 }
             }
