@@ -361,10 +361,11 @@ header
     transition: all 0.3s ease 0s;
 }
 .header-area .main-nav .logo img{
-  margin-top: 36px;
+  margin-top: 33px;
 }
 
 .background-header .main-nav .logo {
+  margin-top: -10px;
   line-height: 80px;
 }
 
@@ -1577,7 +1578,7 @@ Portfolio
   height: 46px;
   display: inline-block;
   text-align: center;
-  line-height: 46px;
+  line-height: 40px;
   font-size: 30px;
   background-color: #eee;
   border-radius: 50%;
